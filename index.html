@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculateur d’UE – BUT Info</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <h1>Calculateur de moyennes – BUT Informatique</h1>
+
+    <div class="container">
+        
+        <h2>Notes des modules</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Module</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody id="notesTable"></tbody>
+        </table>
+
+        <button id="calculate">Calculer les moyennes</button>
+        <button id="reset">Effacer toutes les notes</button>
+
+        <h2>Résultats des UE</h2>
+        <div id="results"></div>
+
+        <div class="graph-card">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <h2>Graphique radar</h2>
+<canvas id="radarChart"></canvas>
+</body>
+</html>

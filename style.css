@@ -1,0 +1,113 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgb(69, 70, 97);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* Table des notes */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+    font-size: 15px;
+    background: #323d58;
+}
+
+tr:nth-child(even) {
+    background: #333866;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #747272;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+#calculate {
+    background: #4B74FF;
+    color: white;
+}
+
+#calculate:hover {
+    background: #345dff;
+}
+
+#reset {
+    background: #ff5c5c;
+    color: white;
+}
+
+#reset:hover {
+    background: #ff3434;
+}
+
+/* Résultats */
+#results p {
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 6px 0;
+    background: #f7f7f7;
+}
+
+/* Graphique */
+.graph-card {
+    background: rgb(150, 150, 150);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-top: 25px;
+}
+
+@media(max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 20px;
+    }
+}
+
+#radarChart {
+    background-color: #ffffff;
+    font-weight: bold;
+    margin: 400px;
+    padding: 20px;
+}
