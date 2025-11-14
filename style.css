@@ -22,7 +22,7 @@ h1, h2 {
 .container {
     max-width: 900px;
     margin: 40px auto;
-    background: rgb(69, 70, 97);
+    background: rgb(150, 150, 150);
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
