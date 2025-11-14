@@ -125,7 +125,7 @@ document.getElementById("calculate").addEventListener("click", function() {
 //         GRAPHIC RADAR AVEC CHART.JS
 // -----------------------------------------------
 
-let radarChart = null;
+let radarChart;
 
 function updateRadarChart(ueResults) {
     const labels = ["UE1", "UE2", "UE3", "UE4", "UE5", "UE6"];
