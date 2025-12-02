@@ -74,7 +74,7 @@ document.addEventListener("input", saveNotes);
 // ----------------------------------------------------
 document.getElementById("calculate").addEventListener("click", function() {
   const ueResults = {
-    UE1:{somme:0,coef:0}, UE2:{somme:0,coef:0}, UE3:{somme:0,coef:0},
+    UE1"Réaliser un développement d'applications":{somme:0,coef:0}, UE2:{somme:0,coef:0}, UE3:{somme:0,coef:0},
     UE4:{somme:0,coef:0}, UE5:{somme:0,coef:0}, UE6:{somme:0,coef:0}
   };
 
