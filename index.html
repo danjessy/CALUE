@@ -3,46 +3,160 @@
 
 <html lang="fr">
 
+
 <head>
+
+
     <meta charset="UTF-8">
+
+
     <title>Calculateur d’UE – BUT Info</title>
+
+
+
+
     <link rel="stylesheet" href="style.css">
+
+
+
+
+
     <!-- Chart.js -->
+
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5001781141614816"
+
+
+     crossorigin="anonymous"></script>
+
+
 </head>
 
 
 
+
+
 <body>
-    
- <img src="logo.jpeg" alt="logo"> 
+
+
+    <img src="logo.jpeg" alt="logo"> 
+
 
     <h1>Calculateur de moyennes – BUT Informatique</h1>
+
+
     <p>Il s'agit d'un calculateur de moyenne UE à partir des notes de modules.<br> Il prend en compte les coefficient des modules dans les UE mais les coefficient des notes dans les modules sont à 1.<br> ATTENTION, les résultas sont à titre indicatif, il peut y avoir des erreurs.</p>
-    
+
+
+
+
+
     <div class="container">
+
+
+        
+
 
         <h2>Notes des modules</h2>
 
+
+
+
+
         <table>
+
+
             <thead>
+
+
                 <tr>
+
+
                     <th>Module</th>
+
+
                     <th>Notes</th>
+
+
                 </tr>
+
+
             </thead>
+
+
             <tbody id="notesTable"></tbody>
+
+
         </table>
 
-        
+
+
+
+
         <button id="calculate">Calculer les moyennes</button>
+
+
         <button id="reset">Effacer toutes les notes</button>
 
+
+
+
+
         <h2>Résultats des UE</h2>
+
+
+        <div id="results"></div>
+
+
     <ul>
+
+
         <li>Compétence UE1 : "Réaliser un développement d'applications"</li>
+
+
         <li>Compétence UE2 : "Optimiser des applications"</li>
+
+
         <li>Compétence UE3 : "Administrer des systèmes informatiques communicants complexes"</li>
+
+
         <li>Compétence UE4 : "Gérer des données de l'information"</li>
+
+
         <li>Compétence UE5 : "Conduire un projet"</li>
+
+
+        <li>Compétence UE6 : "Collaborer au sein d'une équipe informatique"</li>
+
+
     </ul>
+
+
+        <div class="graph-card">
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+
+
+    <h2>Graphique radar</h2>
+
+
+<canvas id="radarChart"></canvas>
+
+
+</body>
+
+
+</html>
